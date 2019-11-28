@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		026274D9214C6BC400AE1BDF /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026274D8214C6BC400AE1BDF /* WKWebViewController.swift */; };
+		0E190D80238FE5580042F77E /* NFXNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E190D7F238FE5580042F77E /* NFXNotifier.swift */; };
 		3708AD5A22D4A9DD0050DB7D /* NFXURLDetailsControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3708AD5922D4A9DD0050DB7D /* NFXURLDetailsControllerViewController.swift */; };
 		8201A39D204E3E3F00AB2C3D /* NFXAuthenticationChallengeSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8201A39C204E3E3F00AB2C3D /* NFXAuthenticationChallengeSender.swift */; };
 		8201A39E204E451900AB2C3D /* NFXAuthenticationChallengeSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8201A39C204E3E3F00AB2C3D /* NFXAuthenticationChallengeSender.swift */; };
@@ -87,6 +88,7 @@
 
 /* Begin PBXFileReference section */
 		026274D8214C6BC400AE1BDF /* WKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
+		0E190D7F238FE5580042F77E /* NFXNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFXNotifier.swift; sourceTree = "<group>"; };
 		3708AD5922D4A9DD0050DB7D /* NFXURLDetailsControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFXURLDetailsControllerViewController.swift; sourceTree = "<group>"; };
 		8201A39C204E3E3F00AB2C3D /* NFXAuthenticationChallengeSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFXAuthenticationChallengeSender.swift; sourceTree = "<group>"; };
 		8229AD621F8FB34300A9D613 /* netfox_ios_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = netfox_ios_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -230,6 +232,7 @@
 				B3F8BA7F1C833ABC00F9FBEA /* NFXSettingsController.swift */,
 				B3F8BA801C833ABC00F9FBEA /* NFXStatisticsController.swift */,
 				B3F8BA811C833ABC00F9FBEA /* NFXWindowController.swift */,
+				0E190D7F238FE5580042F77E /* NFXNotifier.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				B3F8BA941C833ABC00F9FBEA /* NFXImageBodyDetailsController.swift in Sources */,
 				B3F8BA9E1C833ABC00F9FBEA /* NFXSettingsController.swift in Sources */,
 				B3F8BAA21C833ABC00F9FBEA /* NFXWindowController.swift in Sources */,
+				0E190D80238FE5580042F77E /* NFXNotifier.swift in Sources */,
 				B3F8BA841C833ABC00F9FBEA /* NFXAssets.swift in Sources */,
 				826C4E9F1F979AB3008B440C /* NFXLoader.m in Sources */,
 				B3F8BA8C1C833ABC00F9FBEA /* NFXGenericController.swift in Sources */,

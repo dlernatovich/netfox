@@ -197,6 +197,8 @@ fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
     
     @objc public func saveData(_ dataString: NSString, toFile: String)
     {
+        // Post data for the writing to file
+        NFXNotifier.post(message: dataString as String);
         do {
             try dataString.write(toFile: toFile, atomically: false, encoding: String.Encoding.utf8.rawValue)
         } catch {
