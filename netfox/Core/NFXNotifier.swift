@@ -41,7 +41,7 @@ public final class NFXNotifier {
     
     /// Method which provide the getting message from the notification
     /// - Parameter notification: instance of the {@link Notification}
-    public func getMessage(notification: Notification?) -> String? {
+    public static func getMessage(notification: Notification?) -> String? {
         guard let notification = notification else {return nil};
         return notification.userInfo?[K_KEY] as? String;
     }
